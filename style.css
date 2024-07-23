@@ -227,6 +227,21 @@ footer div a{
     font-size: medium;
 }
 
+footer img{
+    width: 25%;
+}
+
+/* Copyright */
+
+.copyright{
+    margin-top: 70px;
+    text-align: center;
+}
+
+.copyright p{
+    color: #8f8e8e;
+    font-size: medium;
+}
 /* For Mobile */
 
 @media(max-width: 420px) {
@@ -325,6 +340,38 @@ footer div a{
         border: none;
         padding: 5px;
     }
+
+    /* Social Media Icons */
+
+    .connect{
+        background-color:#e5edf3;
+    }
+    .connect h3{
+        font-size: medium;
+        margin-top: -20px;
+    }
+    .connect img{
+        width: 30px;
+    }
+
+    /* Footer  */
+
+    footer p{
+        font-size: 2vw;
+    }
+    footer div :first-child{
+        font-size: 2vw;
+    }
+    footer div a{
+        font-size: 1.5vw;
+    }
+    footer img{
+        visibility: hidden;
+    }
+    footer div{
+        margin-left: 40px;
+    }
+
 }
 
 
