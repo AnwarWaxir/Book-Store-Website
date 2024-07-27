@@ -234,13 +234,69 @@ footer img{
 /* Copyright */
 
 .copyright{
-    margin-top: 70px;
+    margin: 70px 0 30px 0;
     text-align: center;
 }
 
 .copyright p{
     color: #8f8e8e;
     font-size: medium;
+}
+
+button:hover{
+    color: #000;
+    background-color: white;
+}
+
+button:active{
+    color: white;
+    background-color: #000;
+}
+
+nav:hover{
+    background-color: rgb(255, 253, 227);
+}
+
+/* For PC */
+
+@media(max-width: 900px){
+    .home img{
+        margin-left: 20px;
+        width: 350px;
+        margin-top: 20px;
+    }
+    .home h2{
+        font-size: 30px;
+        font-weight: 700px;
+    }
+    .Books-group{
+        display: grid;
+        justify-content: space-evenly;
+    }
+    .Books{
+        margin-bottom: 10px;
+    }
+    .Books button{
+        width: 15vw;
+        height: 7vh;
+    }
+    .card-group{
+        display: grid;
+        justify-content: center;
+    }
+    .card-group .card-title{
+        font-size: 1.5vw;
+        padding-top: 10px;
+    }
+    footer p{
+        font-size: 1vw;
+    }
+    footer div p{
+        font-size: 1vw;
+    }
+    footer img{
+        width: 40%;
+    }
 }
 /* For Mobile */
 
